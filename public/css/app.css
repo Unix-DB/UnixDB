@@ -1474,6 +1474,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
@@ -1613,6 +1617,9 @@ select {
 }
 .pb-80 {
   padding-bottom: 20rem;
+}
+.pt-24 {
+  padding-top: 6rem;
 }
 .text-left {
   text-align: left;

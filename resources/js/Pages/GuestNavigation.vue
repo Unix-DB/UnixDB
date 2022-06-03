@@ -72,24 +72,24 @@ const navigation = {
         },
     ],
     other: [
-        { name: 'Explore', href: '#' },
-        { name: 'Support', href: '#' },
+        { name: 'Explore', href: '/explore' },
+        { name: 'Support', href: '/support' },
     ],
 }
 </script>
 
 <template>
     <div class="bg-white">
-        <header class="relative bg-white">
+        <header class="relative bg-gray-500">
             <nav aria-label="Top" class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="border-b border-gray-200 px-4 pb-14 sm:px-0 sm:pb-0">
+                <div class="px-4 pb-14 sm:px-0 sm:pb-0">
                     <div class="h-16 flex items-center justify-between">
                         <!-- Logo -->
                         <div class="flex-1 flex">
-                            <a href="#">
+<!--                            <a href="#">
                                 <span class="sr-only">Workflow</span>
                                 <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" alt="" />
-                            </a>
+                            </a>-->
                         </div>
 
                         <!-- Flyout menus -->
